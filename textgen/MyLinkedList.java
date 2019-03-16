@@ -204,6 +204,7 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	 */
 	public E set(int index, E element) 
 	{
+		/* Check whether index is out of bounds */
 		if(index < 0 || index >= size)
 		{
 			throw new IndexOutOfBoundsException("Index should between 0 and " + (size - 1));
