@@ -171,6 +171,7 @@ public class MyLinkedList<E> extends AbstractList<E> {
 		{
 			LLNode<E> curNode = head.next;
 			
+			/* Loop over all the indices */
 			while(index >= 0)
 			{
 				if(index == 0)
